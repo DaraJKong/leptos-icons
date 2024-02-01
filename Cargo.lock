@@ -699,9 +699,8 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "leptos"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "13156caccc40bb71d687bed455b7d644ac69ecb5a5c180c2809ba52df863a99a"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "cfg-if",
  "leptos_config",
@@ -718,9 +717,8 @@ dependencies = [
 
 [[package]]
 name = "leptos_config"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "99cee343145b16836df6847d7da0db6f7f0a3f53f860e6b771bdeebb6da7f0ed"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "config",
  "regex",
@@ -731,9 +729,8 @@ dependencies = [
 
 [[package]]
 name = "leptos_dom"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf6c02444169c390660bb8975adf064daf3f24f40b2d3f25618e5c0bbbe89cb5"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "async-recursion",
  "cfg-if",
@@ -761,9 +758,8 @@ dependencies = [
 
 [[package]]
 name = "leptos_hot_reload"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "11bf126e9ac0597cda4156f14dea23627d90d53ade182a537b234b7e131e0096"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "anyhow",
  "camino",
@@ -793,9 +789,8 @@ dependencies = [
 
 [[package]]
 name = "leptos_macro"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b859592ff768b01122733ac03a72507849e7ea2f640c63bb1c3487a5dc7a0891"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "attribute-derive",
  "cfg-if",
@@ -816,9 +811,8 @@ dependencies = [
 
 [[package]]
 name = "leptos_reactive"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4c5f08f2392b01cc5fc9223eeb92c70b40d366354ffbfb1c6761c9e621a8f966"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "base64",
  "cfg-if",
@@ -839,9 +833,8 @@ dependencies = [
 
 [[package]]
 name = "leptos_server"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4d6baa84d07a5869261e1dc606058886f1a79d6bf89b7b138cf25bae30983b76"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "inventory",
  "lazy_static",
@@ -1252,9 +1245,8 @@ dependencies = [
 
 [[package]]
 name = "server_fn"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f27208122b0fa6d2b90b7dc25de60294e28647efd43b4c8abaf7df86227931a5"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "bytes",
  "ciborium",
@@ -1281,9 +1273,8 @@ dependencies = [
 
 [[package]]
 name = "server_fn_macro"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a8d7a5a1c0f78f261dbb8cf16281020552a1d518dbcb8501b33b8edae02b781b"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "const_format",
  "convert_case",
@@ -1295,9 +1286,8 @@ dependencies = [
 
 [[package]]
 name = "server_fn_macro_default"
-version = "0.6.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "29d13a68cc5b1ff8a3259e3ae984b91559268f0e5a7a8b0216f55b05307df5cb"
+version = "0.6.5"
+source = "git+https://github.com/leptos-rs/leptos.git#f1bc734dcf89ed58510310db72b2dc2a433b1615"
 dependencies = [
  "server_fn_macro",
  "syn",
